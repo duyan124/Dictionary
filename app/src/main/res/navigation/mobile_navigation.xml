@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_engviet">
+
+    <fragment
+        android:id="@+id/nav_engviet"
+        android:name="com.example.dictionary.ui.engviet.EngVietFragment"
+        android:label="@string/menu_engviet"
+        tools:layout="@layout/fragment_engviet" />
+
+    <fragment
+        android:id="@+id/nav_vieteng"
+        android:name="com.example.dictionary.ui.vieteng.VietEngFragment"
+        android:label="@string/menu_vieteng"
+        tools:layout="@layout/fragment_vieteng" />
+
+    <fragment
+        android:id="@+id/nav_engeng"
+        android:name="com.example.dictionary.ui.engeng.EngEngFragment"
+        android:label="@string/menu_engeng"
+        tools:layout="@layout/fragment_engeng" />
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.example.dictionary.ui.engeng.EngEngFragment"
+        android:label="@string/menu_engeng"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/nav_yourwords"
+        android:name="com.example.dictionary.ui.engeng.EngEngFragment"
+        android:label="@string/menu_engeng"
+        tools:layout="@layout/fragment_yourwords" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.dictionary.ui.yourwords.YourWordsFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.dictionary.ui.favorites.FavoritesFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

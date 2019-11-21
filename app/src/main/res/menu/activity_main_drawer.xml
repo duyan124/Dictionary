@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_engviet"
+            android:icon="@drawable/engviet"
+            android:title="@string/menu_engviet" />
+        <item
+            android:id="@+id/nav_vieteng"
+            android:icon="@drawable/vieteng"
+            android:title="@string/menu_vieteng" />
+        <item
+            android:id="@+id/nav_engeng"
+            android:icon="@drawable/engeng"
+            android:title="@string/menu_engeng" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/favorite"
+            android:title="@string/menu_favorites" />
+        <item
+            android:id="@+id/nav_yourwords"
+            android:icon="@drawable/your_words"
+            android:title="@string/menu_yourwords" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help"
+                android:title="@string/menu_help" />
+        </menu>
+    </item>
+
+</menu>
